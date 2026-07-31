@@ -1,10 +1,4 @@
 {
-  "dependencies": {
-    "mongoose": "^9.9.0",
-    "tailwind-scrollbar-hide": "^4.0.0"
-  }
-}
-{
   "name": "cinetrail",
   "version": "0.1.0",
   "private": true,
@@ -12,19 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint"
   },
   "dependencies": {
-    "mongodb": "^7.5.0",
-    "next": "^16.2.12",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "babel-plugin-react-compiler": "1.0.0",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.12",
-    "tailwindcss": "^4"
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
